@@ -2,6 +2,8 @@
 
 Given a list of product names, explore ml options for classification and text extraction.
 
+For a detailed discussion see [nlp_challenge.ipynb](/source/nlp_challenge.ipynb)
+
 In the case where high bias is present in a text classification model, techniques to consider for improving the model are:
 
 - Data processing
@@ -16,4 +18,3 @@ If a labelled dataset does not exist, two options can help get the training star
 - Transfer learning
   - Pre-trained models may be available that can be modified to learn the specific use case
   - Regular expressions can be used to automatically label clean samples of data. This initial dataset can be used to begin training
-
